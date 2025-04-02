@@ -18,9 +18,9 @@
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
-        <div id="unity-logo-title-footer"></div>
+        <!--<div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">LLMAvatar</div>
+        <div id="unity-build-title">LLMAvatar</div> all done-->
       </div>
     </div>
     <script>
@@ -111,9 +111,9 @@
         }).then((instance) => {
           unityInstance = instance;  // Store the Unity instance
           document.querySelector("#unity-loading-bar").style.display = "none";
-          document.querySelector("#unity-fullscreen-button").onclick = () => {
-            unityInstance.SetFullscreen(1);
-          };
+         // document.querySelector("#unity-fullscreen-button").onclick = () => {
+         //   unityInstance.SetFullscreen(1);
+         // };
 
           // Now that Unity is loaded, you can interact with it.
           // Example: Send a message to Unity (replace with your own logic)
